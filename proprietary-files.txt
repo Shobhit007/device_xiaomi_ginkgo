@@ -94,6 +94,23 @@ vendor/etc/acdbdata/IDP/IDP_Hdmi_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_Headset_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_Speaker_cal.acdb
 vendor/etc/acdbdata/IDP/IDP_workspaceFile.qwsp
+vendor/etc/acdbdata/IDP/trinket-tasha-snd-card/IDP_WCD9335_Bluetooth_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tasha-snd-card/IDP_WCD9335_General_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tasha-snd-card/IDP_WCD9335_Global_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tasha-snd-card/IDP_WCD9335_Handset_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tasha-snd-card/IDP_WCD9335_Hdmi_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tasha-snd-card/IDP_WCD9335_Headset_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tasha-snd-card/IDP_WCD9335_Speaker_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tasha-snd-card/IDP_WCD9335_workspaceFile.qwsp
+vendor/etc/acdbdata/IDP/trinket-tavil-snd-card/IDP_WCD9340_Bluetooth_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tavil-snd-card/IDP_WCD9340_Codec_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tavil-snd-card/IDP_WCD9340_General_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tavil-snd-card/IDP_WCD9340_Global_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tavil-snd-card/IDP_WCD9340_Handset_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tavil-snd-card/IDP_WCD9340_Hdmi_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tavil-snd-card/IDP_WCD9340_Headset_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tavil-snd-card/IDP_WCD9340_Speaker_cal.acdb
+vendor/etc/acdbdata/IDP/trinket-tavil-snd-card/IDP_WCD9340_workspaceFile.qwsp
 vendor/etc/acdbdata/adsp_avs_config.acdb
 
 # Bluetooth (aptX) - from crosshatch-user 10 QP1A.190711.020 5800535 release-keys
@@ -145,7 +162,6 @@ vendor/etc/camera/model_front.dlc
 vendor/etc/camera/sceneDetection.xml
 vendor/etc/camera/score_bg.png
 vendor/etc/camera/score_icon.png
-vendor/etc/camera/vidhance_calibration
 vendor/lib/hw/camera.trinket.so
 vendor/lib/libSNPE.so
 vendor/lib/libVDClearShot.so
@@ -177,7 +193,6 @@ vendor/lib/libarcsoft_dualcam_refocus.so
 vendor/lib/libarcsoft_high_dynamic_range.so
 vendor/lib/libarcsoft_low_light_hdr.so
 vendor/lib/libarcsoft_preview_antibanding.so
-vendor/lib/libbase64.so
 vendor/lib/libc++_shared.so
 vendor/lib/libcamera_scene.so
 vendor/lib/libcapiv2svacnn.so
@@ -820,7 +835,6 @@ vendor/lib/libchromatix_ginkgo_s5kgm1_sunny_india_i_zsl_preview_3a_sn.so
 vendor/lib/libchromatix_ginkgo_s5kgm1_sunny_india_i_zsl_video_3a.so
 vendor/lib/libdepthmapwrapper.so
 vendor/lib/libflash_pmic.so
-vendor/lib/libgui_vendor.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
@@ -970,17 +984,14 @@ vendor/lib/libsns_fastRPC_util.so
 vendor/lib/libsns_low_lat_stream_stub.so
 vendor/lib/libsnsapi.so
 vendor/lib/libsnsdiaglog.so
-vendor/lib/libstdc++.so
 vendor/lib/libswvdec.so
 vendor/lib/libsymphony-cpu.so
 vendor/lib/libsymphonypower.so
 vendor/lib/libvideoutils.so
 vendor/lib/libvidhance.so
 vendor/lib/mibokeh_660_opencl.bin
-vendor/lib64/libbase64.so
 vendor/lib64/libcapiv2svacnn.so
 vendor/lib64/libcapiv2vop.so
-vendor/lib64/libgui_vendor.so
 vendor/lib64/libmmcamera2_frame_algorithm.so
 vendor/lib64/libmmcamera2_is.so
 vendor/lib64/libmmcamera2_q3a_core.so
@@ -1121,8 +1132,10 @@ vendor/lib64/vendor.qti.hardware.cvp@1.0-halimpl.so|d9ad45b11f3779ecac38f28ab3f1
 vendor/lib64/vendor.qti.hardware.cvp@1.0.so|8b4756451c038042970bd57330801cb49f89e1f2
 
 # Display calibration
-vendor/etc/qdcm_calib_data_ft8719_video_mode_dsi_tianma_panel.xml
+vendor/etc/qdcm_calib_data_ft8719_video_mode_dsi_huaxing_panel.xml
 vendor/etc/qdcm_calib_data_nt36672a_video_mode_dsi_shenchao_panel.xml
+vendor/etc/qdcm_calib_data_nt36672a_video_mode_dsi_tianma_panel.xml
+vendor/etc/qdcm_calib_data_nt36672_truly_fhd_video_mode_dsi_panel.xml
 
 # DPM - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 -product/priv-app/dpmserviceapp/dpmserviceapp.apk|9fd873c5330c03c62dfdeb6540b5984588295319
@@ -1376,8 +1389,8 @@ vendor/lib64/libsdmextension.so|baa5807e39b25134fbe6c9ba2667eead26256e25
 vendor/lib64/libtinyxml2_1.so|ba981e332895a053a67fc54a8190365a3ad37f2d
 
 # Graphics (Vulkan) - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/lib/hw/vulkan.sm6150.so|c3f1a905c936834f49ce74679d40ce0ab66dd582
-vendor/lib64/hw/vulkan.sm6150.so|56531ebe2af3c0d8eb63ca3a3e0e630e24ea7365
+vendor/lib/hw/vulkan.trinket.so|86a16a955d0a88c1e852251d3c5c11fcfe0e1520
+vendor/lib64/hw/vulkan.trinket.so|ad4413d46d4c3007546e75165cb5b2c2dcf43784
 
 # IO Prefetcher - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.iop@2.0-service|98c38e3647a6c286e5bfb8b271827328f6c04148
@@ -1427,22 +1440,22 @@ vendor/lib64/vendor.qti.hardware.data.latency@1.0.so|ff7a319e51ddd4de14af28a84f7
 vendor/lib64/vendor.qti.latency@2.0.so|91a8b05b20485057ee9f42c55ce70207ef6af761
 
 # Listen - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
-vendor/lib/hw/sound_trigger.primary.trinket.so
-vendor/lib/libadpcmdec.so
-vendor/lib/libgcs-calwrapper.so
-vendor/lib/libgcs-ipc.so
-vendor/lib/libgcs-osal.so
-vendor/lib/libgcs.so
-vendor/lib/liblistenjni.so
-vendor/lib/liblistensoundmodel2.so
-vendor/lib/libsmwrapper.so
-vendor/lib64/hw/sound_trigger.primary.trinket.so
-vendor/lib64/libgcs-calwrapper.so
-vendor/lib64/libgcs-ipc.so
-vendor/lib64/libgcs-osal.so
-vendor/lib64/libgcs.so
-vendor/lib64/liblistenjni.so
-vendor/lib64/liblistensoundmodel2.so
+vendor/lib/hw/sound_trigger.primary.trinket.so|6c1209d66d226e3c67a17ce3cda8cc6ce67cd7be
+vendor/lib/libadpcmdec.so|81ff51d498dcbb93e02970e69dce637c1064b6f6
+vendor/lib/libgcs-calwrapper.so|10ad10d26d3a21abd1b66ba449dc5fd0aeee7812
+vendor/lib/libgcs-ipc.so|a07765fb7c2bd3b319cdb60ee17327a25daa42ff
+vendor/lib/libgcs-osal.so|8481d4fbbe8e10d3d9c525c8086b3ad2515f08eb
+vendor/lib/libgcs.so|7a5bad634297c4f5f7165969da2e8b0a8196be47
+vendor/lib/liblistenjni.so|29820aa843806874cb4be8f2ec028670d4153b10
+vendor/lib/liblistensoundmodel2.so|e030332696f9b559b3045c0df5574721c5f9c4a9
+vendor/lib/libsmwrapper.so|3f8314acec0c3cce868643578bc17fcc4b68d271
+vendor/lib64/hw/sound_trigger.primary.trinket.so|04289b7711cb36cd46a5c81088ff8c0555c97ddc
+vendor/lib64/libgcs-calwrapper.so|4da172b6a9914cc5d2944f296613364c6eb4062e
+vendor/lib64/libgcs-ipc.so|2ea2a760ab028a398900c23b37de2dc405f7fa89
+vendor/lib64/libgcs-osal.so|d3af7c45f6c97d88c519af5227096e5bc0c1ded8
+vendor/lib64/libgcs.so|b90365a217c76db9f9abcb620bc3a530dbd40d34
+vendor/lib64/liblistenjni.so|67971afb9b2e10d5158e70453727f73b9b56ec6e
+vendor/lib64/liblistensoundmodel2.so|80135f45fdba5f954baff999b6b7a95e7c66d2bd
 
 # Machine learning - from davinci-user 10 QKQ1.190825.002 V11.0.2.0.QFJCNXM release-keys
 vendor/bin/hw/vendor.qti.hardware.mlshal@1.0-service|e04553770a8c6865e168d211613b4b893b748bff
@@ -1558,7 +1571,7 @@ vendor/etc/lm/AppClassifierFeature.xml|102e4291357dd384c0f474d4192370e25123c5e7
 vendor/etc/lm/GameOptimizationFeature.xml|de0bd5be9e1f6ad936fb817fa2ff745a8ca94fd4
 vendor/etc/perf/commonresourceconfigs.xml|9e277f76243eb5ad16d3e55843aadf68a54e7aaa
 vendor/etc/perf/perfboostsconfig.xml|d01a36d112e3b7ac578f8cd428eac5a928a1c401
-vendor/etc/perf/perfconfigstore.xml|fe23523d649d4e37db7585d384634953fe4e4b0a
+vendor/etc/perf/perfconfigstore.xml|afb6ef1b9891d979a01867fbb38546ac303037e1
 vendor/etc/perf/targetconfig.xml|53d6e2936c1cdc67edf86a2ccf04084adbff4a68
 vendor/etc/perf/targetresourceconfigs.xml|0a614d97672c516aedc253aec525468fbdb270ec
 vendor/etc/perf/thermalboost.conf|3a70ac91160e48a64578f0b7775798f19040e87d
